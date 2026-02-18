@@ -1,91 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CJ’s Trucking English</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="nav">
-    <div class="container nav-inner">
-      <div class="brand">
-        <span>🚛 CJ’s Trucking English</span>
-        <span class="badge">GitHub Pages</span>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container">
+      <h1>CJ’s Trucking English</h1>
+      <p>Real English Training Built for Truck Drivers</p>
+
+      <div class="hero-buttons">
+        <a href="#lessons" class="btn">Start Learning</a>
+        <a href="#workbook" class="btn btn-outline">Get Workbook</a>
       </div>
-      <nav class="nav-links">
-        <a class="active" href="index.html">Home</a>
-        <a href="book.html">Book</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
     </div>
   </header>
 
-  <main class="container hero">
-    <div class="hero-grid">
-      <section class="card">
-        <div class="kicker">📘 Book • 🚛 Trucking • 🗣️ English</div>
-        <h1 class="h1">CJ’s Trucker’s Guide to Better English</h1>
-        <p class="sub">Learn to <b>speak</b>, <b>read</b>, and <b>understand</b> English for the road — with real trucking vocabulary, dialogues, and easy practice.</p>
+  <!-- LESSON SECTION -->
+  <section class="section" id="lessons">
+    <div class="container">
+      <h2>What You’ll Learn</h2>
 
-        <div class="cta-row">
-          <a class="btn primary" href="book.html">See the Book</a>
-          <a class="btn" href="contact.html">Contact CJ</a>
+      <p class="subtext">
+        Learn real trucking English used every day with dispatch, DOT officers,
+        shippers, receivers, and customers.
+      </p>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Dispatch Communication</h3>
+          <p>How to confirm load info, pickup times, and delivery details.</p>
         </div>
 
-        <hr class="sep" />
+        <div class="card">
+          <h3>DOT Inspections</h3>
+          <p>Simple phrases and answers used during roadside inspections.</p>
+        </div>
 
-        <h2 class="h2">What you’ll learn</h2>
-        <ul class="list">
-          <li>Trucking vocabulary (parts, loads, paperwork, safety)</li>
-          <li>Real conversations at shippers/receivers and truck stops</li>
-          <li>Reading practice: signs, forms, and job messages</li>
-          <li>Speaking practice: clear phrases you can use today</li>
-        </ul>
-      </section>
+        <div class="card">
+          <h3>Shipper & Receiver Talk</h3>
+          <p>Check-in phrases, appointment talk, and paperwork vocabulary.</p>
+        </div>
 
-      <aside class="card">
-        <h2 class="h2">Free Quick Lesson</h2>
-        <p class="p">Try these phrases (say them out loud):</p>
-        <ul class="list">
-          <li>“I’m here for a pickup.”</li>
-          <li>“Where do I check in?”</li>
-          <li>“Can you repeat that, please?”</li>
-          <li>“I need a door number.”</li>
-        </ul>
-        <hr class="sep" />
-        <p class="note">
-          Want this website to sell your book? When your Amazon link is ready, you’ll paste it on the Book page.
-        </p>
-      </aside>
+      </div>
     </div>
+  </section>
 
-    <section style="margin-top:14px" class="grid-3">
-      <div class="card">
-        <h2 class="h2">✅ Beginner Friendly</h2>
-        <p class="p">Simple English, short lessons, and easy practice — built for busy drivers.</p>
-      </div>
-      <div class="card">
-        <h2 class="h2">🧰 Real Trucking Focus</h2>
-        <p class="p">Words and dialogues you’ll actually use on the job.</p>
-      </div>
-      <div class="card">
-        <h2 class="h2">📈 Build Confidence</h2>
-        <p class="p">Speak clearer, understand more, and feel confident at work.</p>
-      </div>
-    </section>
+  <!-- WORKBOOK SECTION -->
+  <section class="section alt" id="workbook">
+    <div class="container">
+      <h2>Workbook Bundle</h2>
 
-    <footer class="footer">
-      <div class="card">
-        <div>© <span id="y"></span> CJ’s Trucking English • “CJ’s Trucker’s Guide to Better English”</div>
-        <div class="note">Built on GitHub Pages</div>
-      </div>
-    </footer>
-  </main>
+      <p class="subtext">
+        Download printable trucking English exercises and vocabulary practice.
+      </p>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+      <a href="#" class="btn">Download Coming Soon</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 CJ’s Trucking English</p>
+    </div>
+  </footer>
+
 </body>
 </html>
